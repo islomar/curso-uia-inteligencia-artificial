@@ -1,0 +1,2 @@
+# curso-uia-inteligencia-artificial
+Curso en la UIA en 2022: INTRODUCCIÓN PRÁCTICA A LA INTELIGENCIA ARTIFICIAL Y AL DEEP LEARNING (B002)
