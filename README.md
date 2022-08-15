@@ -16,3 +16,4 @@
     - NVIDIA Docker: needed so that Docker has access to the GPUs (which does not happen by default)
         - https://github.com/NVIDIA/nvidia-docker
         - https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker
+    - [Catálogo de contenedores de NVIDIA para IA](https://catalog.ngc.nvidia.com/containers)

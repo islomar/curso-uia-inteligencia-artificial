@@ -9,4 +9,8 @@ build-jupyter-image: ## Build Jupyter image
 	docker build -t jupyter jupyter-dockerfile
 
 run-jupyter: ## Run Jupyter
-	docker run -p 8888:8888 -v ${PWD}/ipynbs:/workspace/ipynbs jupyter jupyter notebook --allow-root --no-browser --ip=0.0.0.0
+	docker compose -f jupyter/docker-compose.yml up
+	#docker run -p 8888:8888 -v ${PWD}/ipynbs:/workspace/ipynbs jupyter jupyter notebook --allow-root --no-browser --ip=0.0.0.0
+
+run-pytorch: ## Run pytorch
+	docker compose -f pytorch/docker-compose.yml up
