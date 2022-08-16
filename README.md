@@ -102,8 +102,7 @@
     - Ahí está el truco del almendruco. torch.autograd lo hace por nosotros.
 
 
-## Día 1: Redes neuronales prácticas con PyTorch (I)
-- TBD
+## Día 1: Redes neuronales prácticas con Pytorch (I)
 - https://hub.docker.com/r/pytorch/pytorch
 - [Vídeo "Docker + Pytorch" (27 minutos)](https://www.youtube.com/watch?v=ZtHaaWvuZVg)
     - https://juansensio.com/blog/072_pytorch_docker
@@ -113,3 +112,8 @@
         - https://github.com/NVIDIA/nvidia-docker
         - https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker
     - [Catálogo de contenedores de NVIDIA para IA](https://catalog.ngc.nvidia.com/containers)
+- [Slides](https://drive.google.com/file/d/1uujG0jZS5Y9Zv8azhIX_7bjz4CP6OyWp/view)
+- **¿Qué es una red neuronal?**
+    - Una red neuronal artificial (RNA) es un modelo computacional formado por la conexión de unidades que, individualmente, realizan un cálculo sencillo
+    - La teoría conexionista, que está detrás de las RNA, unidades simples interconectadas entre sí, pueden resolver problemas complejos
+- 
