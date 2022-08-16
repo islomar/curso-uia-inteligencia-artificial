@@ -169,7 +169,7 @@
 - https://colab.research.google.com/drive/1hGCFeBoEMf-ezK_b7Nqops8gmC_Pv8Yt?hl=es#scrollTo=RrVKNWW_V52U
 - 41x41x3=5043 píxeles --> Necesito en la capa de entrada 5043 neuronas
     - Imagen pequeña de 41x41. En color (RGB = 3 pixels, 3 canales de color).
-    - Capa de salida: 2 neuronas ("No aceituna (0)" y "Aceituna (1)")
+    - Capa de salida: 2 neuronas ("No aceituna (0)" y "Aceituna (1)") --> one-hot encoding
     - Una capa oculta de 1024 neuronas (un solo plano).
     - Es habitual ir disminuyendo el número de neuronas en las capas ocultas conforme se acercan a la salida.
     - La primera capa no tiene por qué ser potencia de 2. Pero el resto mejor sí (opinión personal, creo).
@@ -189,3 +189,4 @@
 
 ## Preguntas
 - ¿Algo similar a los tests automatizados en desarrollo de SW?
+- ¿Por qué se aplana la curva de aprendizaje cuando se aumenta el número de capas?
