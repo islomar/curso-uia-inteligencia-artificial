@@ -147,6 +147,16 @@
     - **Al incrementar el número de neuronas de una capa**, añadimos parámetros a esa capa, lo que permitirá un mejor ajuste a los datos de entrenamiento. Sin embargo, **reducimos el poder de generalización de la red --> overfitting**
     - **Al añadir capas**, incrementamos la complejidad dimensional que la red es capaz de aprender: **modificamos la forma del hiperplano** de separación.
     - Regla para calcular el óptimo número de capas y neuronas por capa: NO HAY --> Ensayo y error
+- **Carga de datos: ¿ Qué ocurre si el tensor X es muy grande y no cabe en memoria (problema muy frecuente en Deep Learning!)?**
+    - Se pasa en batches
+    - En este caso, tendremos que ir cargando los datos poco a poco  entrenamiento batch
+    - Un batch es un subconjunto de datos que SÍ cabe en memoria
+    - La idea es calcular la salida y estimar los gradientes del error para cada batch
+    - El tamaño del batch puede afectar a la estabilidad numérica del algoritmo de optimización (gradiente descendente). La capacidad de generalización depende del tamaño del batch!. Es, por tanto, **uno de los hiperparámetros más importantes a optimizar**
+    - Opinión: usar potencia de 2 para el tamaño del batch.
+- **Mejora de la capacidad de generalización. Regularización**
+    - La regularización consiste en aplicar una penalización a la función de coste durante el proceso de optimización para evitar el sobreajuste a los datos de entrenamiento.
+    - "Fastidiar" el proceso de aprendizaje
 
 
 ### Práctica 2. Redes Neuronales Básicas
