@@ -52,7 +52,7 @@
     - Dos formas de estandarizar variables
         - Z-score: Suponiendo una distribución normal
             - Usado cuando se conoce la desviación estándar de la población y la muestra es mayor de 30
-        - t-score: Suponiendo una distribución t de Student
+        - t-score: Suponiendo una distribución t de Student (como la distribución normal pero con las colas más largas, para muestras con valores más extremos).
 
 
 
