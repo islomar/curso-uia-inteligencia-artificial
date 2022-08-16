@@ -136,10 +136,11 @@
 - Se comienza con unos pesos aleatorios y luego es van actualizando en baes a los errores (se requiere el gradiente del error con respecto a cada peso así como una tasa de aprendizaje).
 - **Proceso de optimización**: Algoritmo backpropagation. Implementación del **Algoritmo de Descenso de Gradiente Estocástico (SGD)**
     - Existen múltiples algoritmos de optimización en Python.
-    - El algoritmo de gradiente descendente es un método de optimización para encontrar el mínimo local de una función diferenciable.
-    - El objetivo es determinar los parámetros que minimizan una función de coste
-    - Requiere que la función a optimizar sea convexa.
+    - El **algoritmo de gradiente descendente** es un método de optimización para encontrar el mínimo local de una función diferenciable.
+    - El objetivo es determinar los **parámetros** que minimizan una función de coste
+    - Requiere que la función a optimizar sea **convexa** (una función real es convexa en un intervalo (a,b), si la cuerda que une dos puntos cualesquiera en el grafo de la función queda por encima de la función.)
     - Es el método de optimización más usado en la actualidad en Deep Learning.
+    - Estamos bien si estamos en una pérdida del 1% (0.01)
 
 
 ### Práctica 2. Redes Neuronales Básicas
