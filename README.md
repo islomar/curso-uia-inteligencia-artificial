@@ -12,7 +12,11 @@
     - [DNN: Deep Neural Network](https://www.bmc.com/blogs/deep-neural-network/)
 - En 1995, se abandonaron las técnicas basadas en ANN a favor de las técnicas de aprendizaje estadístico (SVM)
     - Cibernética --> Perceptrón --> Algoritmo back-propagation --> Deep Learning
-
+- **Aprendizaje automático**: Búsqueda de relaciones estadísticas entre muestras de un conjunto de datos para reconocer patrones y realizar una acción asociada a cada uno de dichos patrones
+- Aprendizaje:
+    - Supervisado (supervised): necesaria la solución al problema para reajustar el model (realimentación)
+    - No supervisado (unsupervised): no es necesaria la solución al problema para reajustar el modelo. Se utilizan por ejemplo, medidas de similitud para separar clases.
+    - Reforzado (reinforcement): utiliza algunas soluciones y el grado de bondad de las mismas para determinar "lo buena" que es una solución (recompensa).
 
 
 ## Día 1: Redes neuronales prácticas con PyTorch (I)
