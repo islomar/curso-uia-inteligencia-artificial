@@ -117,4 +117,10 @@
     - Una red neuronal artificial (RNA) es un modelo computacional formado por la conexión de unidades que, individualmente, realizan un cálculo sencillo
     - La teoría conexionista, que está detrás de las RNA, unidades simples interconectadas entre sí, pueden resolver problemas complejos
 - Una **neurona artificial** implementa un clasificador lineal. Sólo separa clases linealmente ! separables (mediante una recta).
-- 
+- **Red neuronal básica**: La introducción de una capa de neuronas permite combinar varias rectas (planos) de decisión y así separar clases no linealmente separables.
+- Busca calcular los pesos y la constante b.
+- El objetivo del aprendizaje es la **generalización**. Memorización vs Generalización.
+    - Como después veremos, este ajuste de los pesos se realiza mediante un proceso de optimización de una función objetivo
+- Funcionamiento de una red neuronal. Entrenamiento
+    - Propagación hacia adelante = Proceso de inferencia --> estimación del error
+    - Propagación hacia atrás: ajuste de los pesos para minimizar el error. Una vez detecto un error (e.g. decide que una naranja es una manzana), e van cambiando lo pesos hacia arriba
