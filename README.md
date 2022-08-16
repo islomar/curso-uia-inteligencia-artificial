@@ -116,4 +116,5 @@
 - **¿Qué es una red neuronal?**
     - Una red neuronal artificial (RNA) es un modelo computacional formado por la conexión de unidades que, individualmente, realizan un cálculo sencillo
     - La teoría conexionista, que está detrás de las RNA, unidades simples interconectadas entre sí, pueden resolver problemas complejos
+- Una **neurona artificial** implementa un clasificador lineal. Sólo separa clases linealmente ! separables (mediante una recta).
 - 
