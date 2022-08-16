@@ -5,6 +5,8 @@
 
 ## Día 1: Introducción al curso. Ciencia de datos y Deep learning
 - https://classroom.google.com
+- [Perceptron](https://www.simplilearn.com/tutorials/deep-learning-tutorial/perceptron)
+- [Backpropagation](https://towardsdatascience.com/understanding-backpropagation-abcc509ca9d0)
 
 ## Día 1: Redes neuronales prácticas con PyTorch (I)
 - TBD
