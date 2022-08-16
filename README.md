@@ -157,6 +157,8 @@
 - **Mejora de la capacidad de generalización. Regularización**
     - La regularización consiste en aplicar una penalización a la función de coste durante el proceso de optimización para evitar el sobreajuste a los datos de entrenamiento.
     - "Fastidiar" el proceso de aprendizaje
+    - **Dropout**: Se desactivan aleatoriamente un porcentaje predeterminado de neuronas durante el entrenamiento
+        - Evita que las neuronas memoricen parte de la entrada
 
 
 ### Práctica 2. Redes Neuronales Básicas
@@ -166,3 +168,13 @@
     - Una capa oculta de 1024 neuronas (un solo plano).
     - Es habitual ir disminuyendo el número de neuronas en las capas ocultas conforme se acercan a la salida.
     - La primera capa no tiene por qué ser potencia de 2. Pero el resto mejor sí (opinión personal, creo).
+
+
+## Día 2: Redes neuronales prácticas con PyTorch (II)
+- TBD
+
+## Aprendizaje no supervisado
+- TBD
+
+## Sistemas de Recomendación
+- TBD
