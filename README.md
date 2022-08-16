@@ -4,7 +4,7 @@
 - Del 16 al 19 de agosto de 2022
 
 ## Día 1: Introducción al curso. Ciencia de datos y Deep learning
-- TBD
+- https://classroom.google.com
 
 ## Día 1: Redes neuronales prácticas con PyTorch (I)
 - TBD
