@@ -188,5 +188,6 @@
 
 
 ## Preguntas
+- ¿En el mundo real usáis PyTorch? ¿Instalándolo en local o en algún servicio de Google en la nube?
 - ¿Algo similar a los tests automatizados en desarrollo de SW?
 - ¿Por qué se aplana la curva de aprendizaje cuando se aumenta el número de capas?
