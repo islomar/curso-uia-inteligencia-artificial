@@ -142,6 +142,12 @@
     - Es el método de optimización más usado en la actualidad en Deep Learning.
     - Estamos bien si estamos en una pérdida del 1% (0.01)
 - **fc**: capa "Full Connected". Todas conectadas con todas.
+- **¿Para qué sirven las capas ocultas?**
+    - Las capas ocultas proporcionan la capacidad discriminante de una red neuronal
+    - **Al incrementar el número de neuronas de una capa**, añadimos parámetros a esa capa, lo que permitirá un mejor ajuste a los datos de entrenamiento. Sin embargo, **reducimos el poder de generalización de la red --> overfitting**
+    - **Al añadir capas**, incrementamos la complejidad dimensional que la red es capaz de aprender: **modificamos la forma del hiperplano** de separación.
+    - Regla para calcular el óptimo número de capas y neuronas por capa: NO HAY --> Ensayo y error
+
 
 ### Práctica 2. Redes Neuronales Básicas
 - 41x41x3=5043 píxeles --> Necesito en la capa de entrada 5043 neuronas
@@ -149,4 +155,4 @@
     - Capa de salida: 2 neuronas ("No aceituna (0)" y "Aceituna (1)")
     - Una capa oculta de 1024 neuronas (un solo plano).
     - Es habitual ir disminuyendo el número de neuronas en las capas ocultas conforme se acercan a la salida.
-    - La primera capa no tiene por qué ser potencia de 2. Pero el resto mejor sí.
+    - La primera capa no tiene por qué ser potencia de 2. Pero el resto mejor sí (opinión personal, creo).
