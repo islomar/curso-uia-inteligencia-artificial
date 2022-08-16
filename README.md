@@ -128,8 +128,19 @@
     - Propagación hacia adelante = Proceso de inferencia --> estimación del error
     - Propagación hacia atrás: ajuste de los pesos para minimizar el error. Una vez detecto un error (e.g. decide que una naranja es una manzana), e van cambiando lo pesos hacia arriba
 - Algoritmo backpropagation
-    - **Función de pérdida**: calcula la diferencia entre lo que debería salir y lo ue ha salido
+    - **Función de pérdida**: calcula la diferencia entre lo que debería salir y lo que ha salido
     - Todas las muestras van acompañadas de su etiqueta. Vector de etiqueta que indica a qué clase pertence (e.g. una manzana va a ser un 0, una naranja un 1).
 - **Perceptrón multicapa**
     - Capa de entrada (con tantas neuronas como características tenga) --> Capas ocultas --> Capa de salida (con tantas neuronas como requiera el problema; e.g. para diferenciar entre dos clases, con una neurona sería suficiente. Incluso para una decisión binaria, es mejor tener dos neuronas - una estará totalmente activdada y la otra totalmente desactivada)
 - **Función de activación**: hace que la respuesta de una neurona pueda no ser lineal, e.g. Sigmoide, tanh, ReLU, Leaky RELU
+- Se comienza con unos pesos aleatorios y luego es van actualizando en baes a los errores (se requiere el gradiente del error con respecto a cada peso así como una tasa de aprendizaje).
+- **Proceso de optimización**: Algoritmo backpropagation. Implementación del **Algoritmo de Descenso de Gradiente Estocástico (SGD)**
+    - Existen múltiples algoritmos de optimización en Python.
+    - El algoritmo de gradiente descendente es un método de optimización para encontrar el mínimo local de una función diferenciable.
+    - El objetivo es determinar los parámetros que minimizan una función de coste
+    - Requiere que la función a optimizar sea convexa.
+    - Es el método de optimización más usado en la actualidad en Deep Learning.
+
+
+### Práctica 2. Redes Neuronales Básicas
+- TBD
