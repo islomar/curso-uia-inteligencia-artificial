@@ -83,12 +83,23 @@
 
 ### Pytorch
 - https://colab.research.google.com/
-- Read about the origin of Pytorch
+- Read about the origin of Pytorch and about what a tensor is.
 - Pytorch es una librería (o lo que se conoce como un framework) que reúne una serie de utilidades para trabajar con cálculo tensorial. **Un Tensor** es la versión N-dimensional de una matriz, que puede tener un número arbitrario de dimensiones.
 - El manejo eficiente de los tensores, y su posibilidad de utilizarlos en procesadores paralelos como las tarjetas gráficas (GPUs) es lo que ha catapultado la revolución del deep learning desde el año 2013.
 - Hay muchas librerías para trabajar con tensores, entre ellas la más conocida: Tensorflow. Sin embargo, pytorch está ganando mucha fuerza en los últimos años, ya que está soportado por Facebook, y es usado activamente en grandes empresas como Uber, Salesforce o Tesla.
 - Los más familiares con el lenguaje Python para cálculos técnicos y científicos seguramente conozcan numpy. Pytorch está organizado de forma muy similar, pero para igualar el nivel, y comenzar desde cero, vamos a dar nuestros primeros pasos.
 - **Atributos de los tensores**: Los tensores son en realidad un "objeto". No sólo contienen los datos en sí (ceros, unos, etc), sino uqe también tienen unas propiedades y unos métodos que es posible visualizar, y que nos van a ayudar mucho en la vida. 
+- Todas estas pueden ser realizadas en la CPU (procesador del ordenador) o la GPU (procesador gráfico, más rápido para operaciones paralelas). Por defecto, los tensores están creados en la CPU, pero podemos moverlos entre ambas. Como estamos en Colab, si por defecto no tenemos GPU podemos hacerlo en "Entorno de Ejecución> Cambiar tipo de entorno de ejecución", y seleccionar un acelerador por GPU.
+- [CUDA](https://developer.nvidia.com/cuda-python)
+    - https://www.pcmag.com/encyclopedia/term/cuda
+    - Compute Unified Device Architecture
+- **Torch.autograd**: 
+    - Como hemos comentado anteriormente, las redes neuornales están definidas fundamentalmente por tres pasos:
+        - Propagación hacia adelante (forward pass): se introduce unos datos en la red y se realizan los cálculos necesarios hasta dar una salida.
+        - Cálculo de la pérdida (loss). Se compara la salida de la red con la salida esperada para cuantificar lo "acertado" de nuestra red.
+        - Propagación hacia atrás (backward pass o backpropagation). Se calcula el gradiente de la pérdida con respecto a cada entrada y salida de las neuronas, y se ajustan los parámetros
+    - Para el último paso, es importante ser capaces de calcular el gradiente, el diferencial de una entrada con respecto a una salida, para poder actualizar los pesos de la red neuronal. Pero, ¿cómo calculamos el gradiente automáticamente?
+    - Ahí está el truco del almendruco. torch.autograd lo hace por nosotros.
 
 
 ## Día 1: Redes neuronales prácticas con PyTorch (I)
