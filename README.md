@@ -141,7 +141,9 @@
     - Requiere que la función a optimizar sea **convexa** (una función real es convexa en un intervalo (a,b), si la cuerda que une dos puntos cualesquiera en el grafo de la función queda por encima de la función.)
     - Es el método de optimización más usado en la actualidad en Deep Learning.
     - Estamos bien si estamos en una pérdida del 1% (0.01)
-- **fc**: capa "Full Connected". Todas conectadas con todas.
+- **fc**: 
+    - capa "Full Connected". Todas conectadas con todas.
+    - Se define la conexión entre capas
 - **¿Para qué sirven las capas ocultas?**
     - Las capas ocultas proporcionan la capacidad discriminante de una red neuronal
     - **Al incrementar el número de neuronas de una capa**, añadimos parámetros a esa capa, lo que permitirá un mejor ajuste a los datos de entrenamiento. Sin embargo, **reducimos el poder de generalización de la red --> overfitting**
@@ -178,3 +180,7 @@
 
 ## Sistemas de Recomendación
 - TBD
+
+
+## Preguntas
+- ¿Algo similar a los tests automatizados en desarrollo de SW?
