@@ -2,6 +2,9 @@
 - Universidad Internacional de Andalucia
 - https://www.unia.es/es/oferta-academica/oferta-baeza/item/introduccion-practica-a-la-inteligencia-artifical-y-al-deep-learning
 - Del 16 al 19 de agosto de 2022
+- Dr. Andrés Ortiz García (Universidad de Málaga)
+- Dr. Francisco J. Martínez Murcia (Universidad de Granada)
+
 
 ## Día 1: Introducción al curso. Ciencia de datos y Deep learning
 - https://classroom.google.com
@@ -128,4 +131,5 @@
     - **Función de pérdida**: calcula la diferencia entre lo que debería salir y lo ue ha salido
     - Todas las muestras van acompañadas de su etiqueta. Vector de etiqueta que indica a qué clase pertence (e.g. una manzana va a ser un 0, una naranja un 1).
 - **Perceptrón multicapa**
-    - Capa de entrada (con tantas neuronas como características tenga) --> Capas ocultas --> Capa de salida (con tantas neuronas como requiera el problema; e.g. para diferenciar entre dos clases, con una neurona sería suficiente)
+    - Capa de entrada (con tantas neuronas como características tenga) --> Capas ocultas --> Capa de salida (con tantas neuronas como requiera el problema; e.g. para diferenciar entre dos clases, con una neurona sería suficiente. Incluso para una decisión binaria, es mejor tener dos neuronas - una estará totalmente activdada y la otra totalmente desactivada)
+- **Función de activación**: hace que la respuesta de una neurona pueda no ser lineal, e.g. Sigmoide, tanh, ReLU, Leaky RELU
