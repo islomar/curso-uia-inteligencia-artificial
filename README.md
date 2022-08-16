@@ -144,4 +144,9 @@
 - **fc**: capa "Full Connected". Todas conectadas con todas.
 
 ### Práctica 2. Redes Neuronales Básicas
-- xxxx
+- 41x41x3=5043 píxeles --> Necesito en la capa de entrada 5043 neuronas
+    - Imagen pequeña de 41x41. En color (RGB = 3 pixels).
+    - Capa de salida: 2 neuronas ("No aceituna (0)" y "Aceituna (1)")
+    - Una capa oculta de 1024 neuronas (un solo plano).
+    - Es habitual ir disminuyendo el número de neuronas en las capas ocultas conforme se acercan a la salida.
+    - La primera capa no tiene por qué ser potencia de 2. Pero el resto mejor sí.
