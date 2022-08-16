@@ -46,9 +46,14 @@
 - **Estandarización**
     - Permite comparar puntuaciones de dos sujetos en distintas distribuciones o de un sujeto en distintas variables
     - Es el número de desviaciones típicas que una medida se desvía de su media, de acuerdo a una distribución dada
+- **Normalización vs. Estandarización**
+    - **Normalización**: básicamente, consiste en modificar o adaptar la escala de los datos, con el fin de facilitar la convergencia de los algoritmos de aprendizaje
+    - **Estandarización**: consiste en expresar una variable como el número de desviaciones típicas que la separan de la media. De esta forma, se **unifica** la escala de todas las variables.
     - Dos formas de estandarizar variables
         - Z-score: Suponiendo una distribución normal
+            - Usado cuando se conoce la desviación estándar de la población y la muestra es mayor de 30
         - t-score: Suponiendo una distribución t de Student
+
 
 
 ## Día 1: Redes neuronales prácticas con PyTorch (I)
