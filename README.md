@@ -124,3 +124,8 @@
 - Funcionamiento de una red neuronal. Entrenamiento
     - Propagación hacia adelante = Proceso de inferencia --> estimación del error
     - Propagación hacia atrás: ajuste de los pesos para minimizar el error. Una vez detecto un error (e.g. decide que una naranja es una manzana), e van cambiando lo pesos hacia arriba
+- Algoritmo backpropagation
+    - **Función de pérdida**: calcula la diferencia entre lo que debería salir y lo ue ha salido
+    - Todas las muestras van acompañadas de su etiqueta. Vector de etiqueta que indica a qué clase pertence (e.g. una manzana va a ser un 0, una naranja un 1).
+- **Perceptrón multicapa**
+    - Capa de entrada (con tantas neuronas como características tenga) --> Capas ocultas --> Capa de salida (con tantas neuronas como requiera el problema; e.g. para diferenciar entre dos clases, con una neurona sería suficiente)
