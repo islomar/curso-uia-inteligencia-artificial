@@ -61,7 +61,7 @@
 - ¿Cómo entrenamos una modelo o red neuronal?
     - Datos de entrenamiento y test tienen que ser diferentes
     - Capacidad de realizar predicciones sobre datos nuevos
-- Aprendizaje y capacidad de generalización
+- **Aprendizaje y capacidad de generalización**
     - Estimación del error y ajuste de **hiperparámetros**
     - Para evaluar la capacidad de generalización de los modelos, es necesario definir dos (tres) conjuntos de muestras: entrenamiento, validación y prueba. Training set vs Validation set.
     - _Underfitting_ (faltan parámetros, no ajustamos bien) vs _Overfitting_ (sobreajuste, demasiados parámetros, el modelo no funciona bien con datos que no ha visto nunca)
@@ -69,7 +69,17 @@
         - En aprendizaje automático, encontrar el **compromiso sesgo-varianza** minimiza el error de generalización.
         - El **sesgo (bias)** es el error cometido por supuestos erróneos. Un sesgo alto puede hacer que el algoritmo pierda las relaciones entre las características y las salidas objetivo (subajuste).
         - La **varianza** es el error producido por la sensibilidad a pequeñas fluctuaciones en el conjunto de entrenamiento. Una varianza alta puede hacer que el algoritmo modele el ruido aleatorio de los datos (overfitting).
-
+    - Mejora de la capacidad de generalización
+        - Sesgo alto.
+            - Aumentar el número de muestras de entrenamiento
+        - Varianza alta:
+            - Parada precoz del algoritmo de entrenamiento (early stopping) >> "fastidiar" el aprendizaje
+            - Regularización (ej. Dropout)
+    - **Matriz de confusión**: 
+        - verdadero positivo (TP), falso positivo (Error Tipo I), falso negativo (Error Tipo II), verdadero negativo (TN)
+        - Precisión, Especificidad y Sensibilidad
+    - El problema del desbalanceo en los datos:
+        - Para evitar una mala interpretación de la métrica accuracy, en estos casos es preferible utilizar el accuracy balanceado. Balanced_accuracy = (sensitivity + specificity)/2
 
 ## Día 1: Redes neuronales prácticas con PyTorch (I)
 - TBD
