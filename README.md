@@ -4,6 +4,7 @@
 - Del 16 al 19 de agosto de 2022
 - Dr. Andrés Ortiz García (Universidad de Málaga)
 - Dr. Francisco J. Martínez Murcia (Universidad de Granada)
+- Compraron GPU con 48 GB
 
 
 ## Día 1: Introducción al curso. Ciencia de datos y Deep learning
@@ -167,7 +168,7 @@
 - https://colab.research.google.com/
 - https://colab.research.google.com/drive/1hGCFeBoEMf-ezK_b7Nqops8gmC_Pv8Yt?hl=es#scrollTo=RrVKNWW_V52U
 - 41x41x3=5043 píxeles --> Necesito en la capa de entrada 5043 neuronas
-    - Imagen pequeña de 41x41. En color (RGB = 3 pixels).
+    - Imagen pequeña de 41x41. En color (RGB = 3 pixels, 3 canales de color).
     - Capa de salida: 2 neuronas ("No aceituna (0)" y "Aceituna (1)")
     - Una capa oculta de 1024 neuronas (un solo plano).
     - Es habitual ir disminuyendo el número de neuronas en las capas ocultas conforme se acercan a la salida.
