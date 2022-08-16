@@ -21,6 +21,16 @@
     - **Clasificación**: la predicción es categórica (pertenencia a una clase)
     - **Regresión**: la predicción es continua
     - **Generación**: producir nuevas muestras a partir de un modelo generado mediante un proceso de aprendizaje --> Modelos generativos
+- **Herramientas más populares** 
+    - En Inteligencia Artificial, trabajamos con Tensores
+    - Un tensor es una generalización de los conceptos de escalar y matriz. Un tensor puede entenderse como un array multidimensional.
+    -Numpy, Tensorflow y PyTorch son librerías para cálculo tensorial
+    -Tensorflow, además, proporciona un modelo de programación paralelo, basado en grafos, así como algoritmos de optimización
+    - PyTorch proporciona herramientas similares a las de TensorFlow, pero con el mismo modelo de programación que NumPy .
+
+### Ciencia de datos
+- **Organización de los datos**: La forma habitual de organizar los datos para comenzar a trabajar con ellos, es en forma de matriz, donde cada fila es una muestra y cada columna una variable.
+
 
 
 ## Día 1: Redes neuronales prácticas con PyTorch (I)
