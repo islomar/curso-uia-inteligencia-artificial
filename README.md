@@ -164,13 +164,17 @@
     - **Early stopping**
 
 ### Práctica 2. Redes Neuronales Básicas
+- https://colab.research.google.com/
+- https://colab.research.google.com/drive/1hGCFeBoEMf-ezK_b7Nqops8gmC_Pv8Yt?hl=es#scrollTo=RrVKNWW_V52U
 - 41x41x3=5043 píxeles --> Necesito en la capa de entrada 5043 neuronas
     - Imagen pequeña de 41x41. En color (RGB = 3 pixels).
     - Capa de salida: 2 neuronas ("No aceituna (0)" y "Aceituna (1)")
     - Una capa oculta de 1024 neuronas (un solo plano).
     - Es habitual ir disminuyendo el número de neuronas en las capas ocultas conforme se acercan a la salida.
     - La primera capa no tiene por qué ser potencia de 2. Pero el resto mejor sí (opinión personal, creo).
-
+- `x.view(-1, self.input_neurons)`: deja la primera dimensión igual (el número de aceitunas) y el reto lo conviertes a una única dimensión (una fila por imagen, con todos los píxels).
+- [Función softmax](https://pytorch.org/docs/stable/generated/torch.nn.Softmax.html)
+- DataLoader: extraerá la i
 
 ## Día 2: Redes neuronales prácticas con PyTorch (II)
 - TBD
