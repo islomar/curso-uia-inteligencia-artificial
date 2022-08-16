@@ -84,9 +84,9 @@
     - El problema del desbalanceo en los datos:
         - Para evitar una mala interpretación de la métrica accuracy, en estos casos es preferible utilizar el accuracy balanceado. Balanced_accuracy = (sensitivity + specificity)/2
 
-### Pytorch
+### PyTorch
 - https://colab.research.google.com/
-- Read about the origin of Pytorch and about what a tensor is.
+- Read about the origin of PyTorch and about what a tensor is.
 - Pytorch es una librería (o lo que se conoce como un framework) que reúne una serie de utilidades para trabajar con cálculo tensorial. **Un Tensor** es la versión N-dimensional de una matriz, que puede tener un número arbitrario de dimensiones.
 - El manejo eficiente de los tensores, y su posibilidad de utilizarlos en procesadores paralelos como las tarjetas gráficas (GPUs) es lo que ha catapultado la revolución del deep learning desde el año 2013.
 - Hay muchas librerías para trabajar con tensores, entre ellas la más conocida: Tensorflow. Sin embargo, pytorch está ganando mucha fuerza en los últimos años, ya que está soportado por Facebook, y es usado activamente en grandes empresas como Uber, Salesforce o Tesla.
@@ -105,7 +105,7 @@
     - Ahí está el truco del almendruco. torch.autograd lo hace por nosotros.
 
 
-## Día 1: Redes neuronales prácticas con Pytorch (I)
+## Día 1: Redes neuronales prácticas con PyTorch (I)
 - https://hub.docker.com/r/pytorch/pytorch
 - [Vídeo "Docker + Pytorch" (27 minutos)](https://www.youtube.com/watch?v=ZtHaaWvuZVg)
     - https://juansensio.com/blog/072_pytorch_docker
@@ -141,7 +141,7 @@
     - Requiere que la función a optimizar sea **convexa** (una función real es convexa en un intervalo (a,b), si la cuerda que une dos puntos cualesquiera en el grafo de la función queda por encima de la función.)
     - Es el método de optimización más usado en la actualidad en Deep Learning.
     - Estamos bien si estamos en una pérdida del 1% (0.01)
-
+- **fc**: capa "Full Connected". Todas conectadas con todas.
 
 ### Práctica 2. Redes Neuronales Básicas
-- TBD
+- xxxx
