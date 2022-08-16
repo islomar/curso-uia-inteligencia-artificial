@@ -159,7 +159,7 @@
     - "Fastidiar" el proceso de aprendizaje
     - **Dropout**: Se desactivan aleatoriamente un porcentaje predeterminado de neuronas durante el entrenamiento
         - Evita que las neuronas memoricen parte de la entrada
-
+    - **Early stopping**
 
 ### Práctica 2. Redes Neuronales Básicas
 - 41x41x3=5043 píxeles --> Necesito en la capa de entrada 5043 neuronas
