@@ -7,6 +7,13 @@
 - https://classroom.google.com
 - [Perceptron](https://www.simplilearn.com/tutorials/deep-learning-tutorial/perceptron)
 - [Backpropagation](https://towardsdatascience.com/understanding-backpropagation-abcc509ca9d0)
+- DL Big Bang = DNNs + GPUs + Big Data
+    - GPU: gran capacidad de computación en paralelo
+    - [DNN: Deep Neural Network](https://www.bmc.com/blogs/deep-neural-network/)
+- En 1995, se abandonaron las técnicas basadas en ANN a favor de las técnicas de aprendizaje estadístico (SVM)
+    - Cibernética --> Perceptrón --> Algoritmo back-propagation --> Deep Learning
+
+
 
 ## Día 1: Redes neuronales prácticas con PyTorch (I)
 - TBD
