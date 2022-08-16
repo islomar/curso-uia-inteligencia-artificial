@@ -38,10 +38,15 @@
     - Media
     - Varianza: Medida de la dispersión de los valores respecto a la media
         - Un algoritmo lo tiene más difícil cuanto mayor sea la varianza.
-    - Desviación estándar
+    - Desviación estándar: raíz cuadrada de la varianza
         - La desviación estándar y la varianza, indican la desviación con respecto a la media de una población o muestra
     - Mediana: valor que ocupa el lugar central de todos los datos cuando éstos están ordenados de menor a mayor.
     - Moda: Valor que aparece con más frecuencia
+    - Si la muestra es suficientemente grande, se puede suponer sin equivocarse demasiado que la **distribución es normal** (media=0, varianza=1)
+- **Estandarización**
+    - Permite comparar puntuaciones de dos sujetos en distintas distribuciones o de un sujeto en distintas variables
+    - Es el número de desviaciones típicas que una medida se desvía de su media, de acuerdo a una distribución dada
+
 
 
 ## Día 1: Redes neuronales prácticas con PyTorch (I)
