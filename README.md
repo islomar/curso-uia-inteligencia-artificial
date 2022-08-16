@@ -30,7 +30,18 @@
 
 ### Ciencia de datos
 - **Organización de los datos**: La forma habitual de organizar los datos para comenzar a trabajar con ellos, es en forma de matriz, donde cada fila es una muestra y cada columna una variable.
-
+- **Estadística descriptiva**: 
+    - Es el conjunto de técnicas numéricas y gráficas para describir un conjunto de datos sin extraer conclusiones.
+    - Muestra vs Población
+        - **Población**: universo, conjunto o totalidad de elementos sobre los que se investiga o hace un estudio.
+        - **Muestra**: subconjunto de elementos que se seleccionan previamente de una población para realizar un estudio.
+    - Media
+    - Varianza: Medida de la dispersión de los valores respecto a la media
+        - Un algoritmo lo tiene más difícil cuanto mayor sea la varianza.
+    - Desviación estándar
+        - La desviación estándar y la varianza, indican la desviación con respecto a la media de una población o muestra
+    - Mediana: valor que ocupa el lugar central de todos los datos cuando éstos están ordenados de menor a mayor.
+    - Moda: Valor que aparece con más frecuencia
 
 
 ## Día 1: Redes neuronales prácticas con PyTorch (I)
