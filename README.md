@@ -53,7 +53,22 @@
         - Z-score: Suponiendo una distribución normal
             - Usado cuando se conoce la desviación estándar de la población y la muestra es mayor de 30
         - t-score: Suponiendo una distribución t de Student (como la distribución normal pero con las colas más largas, para muestras con valores más extremos).
-
+- **Clasificadores lineales**
+    - Dadas parejas, ajusta los pesos "w" para que ante una entrada X, la red proporciones la salida correspondiente Y (aprendizaje) -> f(x) = wx + b (f(x)=y, será por ejemplo +/-1)
+    - El cálculo del hiperplano de separación óptimo puede formularse como un problema de optimización
+    - [Máquinas de soporte vectorial](https://es.wikipedia.org/wiki/M%C3%A1quinas_de_vectores_de_soporte)
+    - Más adelante veremos que una red neuronal con una sola capa es un clasificador lineal
+- ¿Cómo entrenamos una modelo o red neuronal?
+    - Datos de entrenamiento y test tienen que ser diferentes
+    - Capacidad de realizar predicciones sobre datos nuevos
+- Aprendizaje y capacidad de generalización
+    - Estimación del error y ajuste de **hiperparámetros**
+    - Para evaluar la capacidad de generalización de los modelos, es necesario definir dos (tres) conjuntos de muestras: entrenamiento, validación y prueba. Training set vs Validation set.
+    - _Underfitting_ (faltan parámetros, no ajustamos bien) vs _Overfitting_ (sobreajuste, demasiados parámetros, el modelo no funciona bien con datos que no ha visto nunca)
+    - **Curva de aprendizaje**
+        - En aprendizaje automático, encontrar el **compromiso sesgo-varianza** minimiza el error de generalización.
+        - El **sesgo (bias)** es el error cometido por supuestos erróneos. Un sesgo alto puede hacer que el algoritmo pierda las relaciones entre las características y las salidas objetivo (subajuste).
+        - La **varianza** es el error producido por la sensibilidad a pequeñas fluctuaciones en el conjunto de entrenamiento. Una varianza alta puede hacer que el algoritmo modele el ruido aleatorio de los datos (overfitting).
 
 
 ## Día 1: Redes neuronales prácticas con PyTorch (I)
