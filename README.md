@@ -46,7 +46,9 @@
 - **Estandarización**
     - Permite comparar puntuaciones de dos sujetos en distintas distribuciones o de un sujeto en distintas variables
     - Es el número de desviaciones típicas que una medida se desvía de su media, de acuerdo a una distribución dada
-
+    - Dos formas de estandarizar variables
+        - Z-score: Suponiendo una distribución normal
+        - t-score: Suponiendo una distribución t de Student
 
 
 ## Día 1: Redes neuronales prácticas con PyTorch (I)
