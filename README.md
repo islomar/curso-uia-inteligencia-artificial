@@ -229,6 +229,8 @@
 - Capas convolucionales: extrae características generales
 - Modelo/red "squeezenet", consume poca memoria, pensado para móviles.
 - Es buena práctica usar el "early stopper"
+- Para leer: https://distill.pub/2019/activation-atlas/
+
 
 ## Aprendizaje no supervisado
 - TBD
