@@ -214,6 +214,12 @@
     - ALEXNET (y LeNet): lo petó
         - **Pooling**: de un grupo de NxN, selecciona el máximo o promedio. Se hace para reducir el tamaño de entrada.
     - VGG16
+- **lr**: learning rate, cuánto modificamos los pesos en cada iteración
+- **softmax** va a devolver valores entre 0 y 1, viene bien para tener probabilidades.
+- **Adam**: modelo de optimización más sencillito
+- Los principales problemas de memoria suelen venir de las capas FC (Fully Connected).
+- Otro indicador acerca de las predicciones de nuestro modelo es la "matriz de confusión" (lo encontraréis como confussion matrix).
+
 
 ## Aprendizaje no supervisado
 - TBD
