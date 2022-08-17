@@ -228,7 +228,7 @@
         c. Re-entrena con LR baja
 - Capas convolucionales: extrae características generales
 - Modelo/red "squeezenet", consume poca memoria, pensado para móviles.
-
+- Es buena práctica usar el "early stopper"
 
 ## Aprendizaje no supervisado
 - TBD
