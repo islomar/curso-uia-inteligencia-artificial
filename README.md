@@ -25,7 +25,7 @@
     - **Clasificación**: la predicción es categórica (pertenencia a una clase)
     - **Regresión**: la predicción es continua
     - **Generación**: producir nuevas muestras a partir de un modelo generado mediante un proceso de aprendizaje --> Modelos generativos
-- **Herramientas más populares** 
+- **Herramientas más populares**
     - En Inteligencia Artificial, trabajamos con Tensores
     - Un tensor es una generalización de los conceptos de escalar y matriz. Un tensor puede entenderse como un array multidimensional.
     -Numpy, Tensorflow y PyTorch son librerías para cálculo tensorial
@@ -34,7 +34,7 @@
 
 ### Ciencia de datos
 - **Organización de los datos**: La forma habitual de organizar los datos para comenzar a trabajar con ellos, es en forma de matriz, donde cada fila es una muestra y cada columna una variable.
-- **Estadística descriptiva**: 
+- **Estadística descriptiva**:
     - Es el conjunto de técnicas numéricas y gráficas para describir un conjunto de datos sin extraer conclusiones.
     - Muestra vs Población
         - **Población**: universo, conjunto o totalidad de elementos sobre los que se investiga o hace un estudio.
@@ -79,7 +79,7 @@
         - Varianza alta:
             - Parada precoz del algoritmo de entrenamiento (early stopping) >> "fastidiar" el aprendizaje
             - Regularización (ej. Dropout)
-    - **Matriz de confusión**: 
+    - **Matriz de confusión**:
         - verdadero positivo (TP), falso positivo (Error Tipo I), falso negativo (Error Tipo II), verdadero negativo (TN)
         - Precisión, Especificidad y Sensibilidad
     - El problema del desbalanceo en los datos:
@@ -92,12 +92,12 @@
 - El manejo eficiente de los tensores, y su posibilidad de utilizarlos en procesadores paralelos como las tarjetas gráficas (GPUs) es lo que ha catapultado la revolución del deep learning desde el año 2013.
 - Hay muchas librerías para trabajar con tensores, entre ellas la más conocida: Tensorflow. Sin embargo, pytorch está ganando mucha fuerza en los últimos años, ya que está soportado por Facebook, y es usado activamente en grandes empresas como Uber, Salesforce o Tesla.
 - Los más familiares con el lenguaje Python para cálculos técnicos y científicos seguramente conozcan numpy. Pytorch está organizado de forma muy similar, pero para igualar el nivel, y comenzar desde cero, vamos a dar nuestros primeros pasos.
-- **Atributos de los tensores**: Los tensores son en realidad un "objeto". No sólo contienen los datos en sí (ceros, unos, etc), sino uqe también tienen unas propiedades y unos métodos que es posible visualizar, y que nos van a ayudar mucho en la vida. 
+- **Atributos de los tensores**: Los tensores son en realidad un "objeto". No sólo contienen los datos en sí (ceros, unos, etc), sino uqe también tienen unas propiedades y unos métodos que es posible visualizar, y que nos van a ayudar mucho en la vida.
 - Todas estas pueden ser realizadas en la CPU (procesador del ordenador) o la GPU (procesador gráfico, más rápido para operaciones paralelas). Por defecto, los tensores están creados en la CPU, pero podemos moverlos entre ambas. Como estamos en Colab, si por defecto no tenemos GPU podemos hacerlo en "Entorno de Ejecución> Cambiar tipo de entorno de ejecución", y seleccionar un acelerador por GPU.
 - [CUDA](https://developer.nvidia.com/cuda-python)
     - https://www.pcmag.com/encyclopedia/term/cuda
     - Compute Unified Device Architecture
-- **Torch.autograd**: 
+- **Torch.autograd**:
     - Como hemos comentado anteriormente, las redes neuornales están definidas fundamentalmente por tres pasos:
         - Propagación hacia adelante (forward pass): se introduce unos datos en la red y se realizan los cálculos necesarios hasta dar una salida.
         - Cálculo de la pérdida (loss). Se compara la salida de la red con la salida esperada para cuantificar lo "acertado" de nuestra red.
@@ -142,7 +142,7 @@
     - Requiere que la función a optimizar sea **convexa** (una función real es convexa en un intervalo (a,b), si la cuerda que une dos puntos cualesquiera en el grafo de la función queda por encima de la función.)
     - Es el método de optimización más usado en la actualidad en Deep Learning.
     - Estamos bien si estamos en una pérdida del 1% (0.01)
-- **fc**: 
+- **fc**:
     - capa "Full Connected". Todas conectadas con todas.
     - Se define la conexión entre capas
 - **¿Para qué sirven las capas ocultas?**
@@ -197,8 +197,8 @@
         - Estimar la capacidad de generalización
         - Generalmente: conjunto de tests
 - **Epoch**: iteración de entrenamiento
-- **Redes convolucionales**: 
-    - intentan mantener la relación que existe entre los pixeles (e.g. en una imagen). 
+- **Redes convolucionales**:
+    - intentan mantener la relación que existe entre los pixeles (e.g. en una imagen).
     - Cada pixel lo multiplica por una matriz de kernels o filtros (que representan alguna característica, e.g. bordes en una imagen).
     - Esperamos que el algoritmos extraiga la característica que sea óptima
 - **Parámetros de la convolución**
@@ -206,7 +206,7 @@
     - Padding: relleno con valores (p)
     - Stride: paso (s) --> distance between two consecutive positions of the kernel (cuánto salta)
     - Dilatación (d): "dilation", cuánto se expande la entrada
-    - Todas las neuronas comparten y aplican el mismo peso/kernel/filtro 
+    - Todas las neuronas comparten y aplican el mismo peso/kernel/filtro
 - [Convolution arithmetic tutorial](https://theano-pymc.readthedocs.io/en/latest/tutorial/conv_arithmetic.html)
 - [A guide to convolution arithmetic for deep learning](https://arxiv.org/abs/1603.07285)
 - Convolución transpuesta: la inversa de la convolución.
@@ -219,7 +219,6 @@
 - **Adam**: modelo de optimización más sencillito
 - Los principales problemas de memoria suelen venir de las capas FC (Fully Connected).
 - Otro indicador acerca de las predicciones de nuestro modelo es la "matriz de confusión" (lo encontraréis como confussion matrix).
-<<<<<<< HEAD
 - **Transfer learning**
     - Transferir el aprendizaje en un dominio (ej. Imagenet) a otro nuevo dominio con un tamaño muestral menor.
     - Redes que han sido entrenados con muchísimas imágenes.
@@ -231,12 +230,23 @@
 - Modelo/red "squeezenet", consume poca memoria, pensado para móviles.
 - Es buena práctica usar el "early stopper"
 - Para leer: https://distill.pub/2019/activation-atlas/
-=======
->>>>>>> 37e18ec (PyTorch II examples)
 
 
 ## Aprendizaje no supervisado
-- TBD
+- No es necesaria la solución al problema para reajustar el modelo. Se utilizan por ejemplo, medidas de similitud para separar clases.
+- Algoritmos de Inteligencia Artificial para identificar patrones en conjuntos de datos no etiquetados y sin conocimiento previo.
+- Son útiles para encontrar características que pueden ser útiles para la categorización (agrupamiento)
+- Es más fácil obtener datos no etiquetados, dado que el etiquetado de las muestras suele ser un proceso manual (muestra a muestra).
+- **Principales aplicaciones**
+    - **Agrupamiento de datos** (clustering) de acuerdo a su similitud (medida de similitud)
+    - **Detección de anomalías**: desviaciones con respecto a un comportamiento definido como normal
+    - **Compresión**: todos los puntos en un cluster pasan a ser representados por el centróide de dicho cluster
+    - **Modelos de variables latentes**: compresión, reducción de la dimensionalidad, eliminación de ruído
+- **Principales inconvenientes**
+    - No se puede tener certeza acerca de la precisión, dado que no disponemos de etiquetas
+    - Requiere de una interpretación a posteriori para identificar los grupos
+
+
 
 ## Sistemas de Recomendación
 - TBD
