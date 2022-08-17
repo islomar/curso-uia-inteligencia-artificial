@@ -257,8 +257,12 @@
     - https://en.wikipedia.org/wiki/Elbow_method_(clustering)
 - **Soft-Clustering. Algoritmo Fuzzy C-medias**
 - **Proyección lineal. Análisis de Componentes Principales (PCA)**
+    - Introductory articles
+        - <https://towardsdatascience.com/introduction-to-principle-component-analysis-d705d27b88b6>
+        - [The most gentle introduction to Principa Components Analysis](https://towardsdatascience.com/the-most-gentle-introduction-to-principal-component-analysis-9ffae371e93b)
     - PCA es una técnica estadística que permite describir un conjunto de datos en términos de nuevas variables no correlacionadas.
     - Estas nuevas variables, llamadas componentes principales, explican la varianza de las variables originales, de forma que aquellas componentes que expliquen mayor varianza indicarían las direcciones de máxima variación.
+    - Principal Component Analysis (PCA) is a statistical technique used for data reduction without losing its properties. Basically, it describes the composition of variances and covariances through several linear combinations of the primary variables, without missing an important part of the original information. In another term, it is about obtaining a unique set of orthogonal axes where the data has the largest variance. Its main aim is to overcome the dimensionality of the problem. The reduction of dimensionality should be such that when dropping higher dimensions, the loss of data is minimum.
     - Proyectando sobre las PCs:
         - Eliminamos ruido
         - Podemos reducir la dimensionalidad de los datos
@@ -269,6 +273,10 @@
 ## Sistemas de Recomendación
 - TBD
 
+## To be read
+- Jupyter notebooks in Production
+- https://neptune.ai/blog/should-you-use-jupyter-notebooks-in-production
+- https://towardsdatascience.com/from-jupyter-notebook-to-deployment-a-straightforward-example-1838c203a437
 
 ## Preguntas
 - ¿En el mundo real usáis PyTorch? Sí, tanto en local como en su propio hierro.
