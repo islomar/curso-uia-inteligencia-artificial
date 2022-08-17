@@ -268,10 +268,30 @@
         - Podemos reducir la dimensionalidad de los datos
 
 
-
-
 ## Sistemas de Recomendación
-- TBD
+- Dr. Marco A. Formoso Trigo (Universidad de Málaga)
+- Betflix: factorización de matrices
+- Amazon: autoencoder
+- Tipos de sistema de recomendación
+    - Content based
+    - Filtro colaborativo
+    - Híbrido
+- **Factorización de matrices**
+    - La idea es tener dos matrices que al multiplicarlas nos dé la valoración prevista de los usuario.
+    - Una matriz por ejemplo sería la valoración de las pelis según los criterios de Acción y Comedia. La otra podría ser los gustos de cada usuario según esos mismos criterios (i.e. si les gusta o no la Acción o la Comedia)
+    - **¿Por qué molestarse en factorizar?**
+        - Sparsity(**Matriz sparse**): desconocemos la mayor parte del contenido de la matriz. I.e. no todos los usuario han visto todas las películas
+            - https://machinelearningmastery.com/sparse-matrices-for-machine-learning/
+        - Tamaño
+            - Ahorro de memoria
+    - Error cuadrático medio
+
+### Ejercicio
+- https://grouplens.org/datasets/movielens/
+- https://files.grouplens.org/datasets/movielens/ml-latest-small-README.html
+- Librería de pandas
+- Dataframe: una tabla en pandas
+
 
 ## To be read
 - Jupyter notebooks in Production
