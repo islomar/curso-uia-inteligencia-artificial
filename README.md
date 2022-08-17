@@ -7,7 +7,7 @@
 - Compraron GPU con 48 GB
 
 
-## Día 1: Introducción al curso. Ciencia de datos y Deep learning
+## Introducción al curso. Ciencia de datos y Deep learning
 - https://classroom.google.com
 - [Perceptron](https://www.simplilearn.com/tutorials/deep-learning-tutorial/perceptron)
 - [Backpropagation](https://towardsdatascience.com/understanding-backpropagation-abcc509ca9d0)
@@ -106,7 +106,7 @@
     - Ahí está el truco del almendruco. torch.autograd lo hace por nosotros.
 
 
-## Día 1: Redes neuronales prácticas con PyTorch (I)
+## Redes neuronales prácticas con PyTorch (I)
 - https://hub.docker.com/r/pytorch/pytorch
 - [Vídeo "Docker + Pytorch" (27 minutos)](https://www.youtube.com/watch?v=ZtHaaWvuZVg)
     - https://juansensio.com/blog/072_pytorch_docker
@@ -177,7 +177,7 @@
 - [Función softmax](https://pytorch.org/docs/stable/generated/torch.nn.Softmax.html)
 - DataLoader: extraerá la i
 
-## Día 2: Redes neuronales prácticas con PyTorch (II)
+## Redes neuronales prácticas con PyTorch (II)
 - Deep Learning: más moderno, se usan millones de parámetros.
 - Red neuronal: La introducción de una capa de neuronas permite combinar varias regiones (áreas) de decisión y así separar clases no linealmente separables
 - Fases:
@@ -245,6 +245,24 @@
 - **Principales inconvenientes**
     - No se puede tener certeza acerca de la precisión, dado que no disponemos de etiquetas
     - Requiere de una interpretación a posteriori para identificar los grupos
+- **Tipos de clustering**
+    - Hard-clustering: categorización absoluta, binaria.
+    - Soft-clustering: categorización probabilística.
+- [Diagrama de Voronoi](https://asignatura.us.es/fgcitig/contenidos/gctem3ma.htm)
+- **Hard-Clustering. Algoritmo K-medias**
+    - k: número de grupos distintos
+- ¿Cómo podemos saber el número óptimo de clusters (k)?
+    - Método Elbow
+    - https://www.geeksforgeeks.org/elbow-method-for-optimal-value-of-k-in-kmeans/
+    - https://en.wikipedia.org/wiki/Elbow_method_(clustering)
+- **Soft-Clustering. Algoritmo Fuzzy C-medias**
+- **Proyección lineal. Análisis de Componentes Principales (PCA)**
+    - PCA es una técnica estadística que permite describir un conjunto de datos en términos de nuevas variables no correlacionadas.
+    - Estas nuevas variables, llamadas componentes principales, explican la varianza de las variables originales, de forma que aquellas componentes que expliquen mayor varianza indicarían las direcciones de máxima variación.
+    - Proyectando sobre las PCs:
+        - Eliminamos ruido
+        - Podemos reducir la dimensionalidad de los datos
+
 
 
 
@@ -253,6 +271,6 @@
 
 
 ## Preguntas
-- ¿En el mundo real usáis PyTorch? ¿Instalándolo en local o en algún servicio de Google en la nube?
+- ¿En el mundo real usáis PyTorch? Sí, tanto en local como en su propio hierro.
 - ¿Algo similar a los tests automatizados en desarrollo de SW?
 - ¿Por qué se aplana la curva de aprendizaje cuando se aumenta el número de capas?
