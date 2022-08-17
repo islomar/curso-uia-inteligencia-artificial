@@ -202,11 +202,18 @@
     - Cada pixel lo multiplica por una matriz de kernels o filtros (que representan alguna característica, e.g. bordes en una imagen).
     - Esperamos que el algoritmos extraiga la característica que sea óptima
 - **Parámetros de la convolución**
+    - Tamaño del kernel (k)
+    - Padding: relleno con valores (p)
+    - Stride: paso (s) --> distance between two consecutive positions of the kernel (cuánto salta)
+    - Dilatación (d): "dilation", cuánto se expande la entrada
     - Todas las neuronas comparten y aplican el mismo peso/kernel/filtro 
 - [Convolution arithmetic tutorial](https://theano-pymc.readthedocs.io/en/latest/tutorial/conv_arithmetic.html)
-- 
-
-
+- [A guide to convolution arithmetic for deep learning](https://arxiv.org/abs/1603.07285)
+- Convolución transpuesta: la inversa de la convolución.
+- Arquitecturas convolucionales
+    - ALEXNET (y LeNet): lo petó
+        - **Pooling**: de un grupo de NxN, selecciona el máximo o promedio. Se hace para reducir el tamaño de entrada.
+    - VGG16
 
 ## Aprendizaje no supervisado
 - TBD
