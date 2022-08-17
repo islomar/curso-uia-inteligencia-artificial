@@ -219,6 +219,15 @@
 - **Adam**: modelo de optimización más sencillito
 - Los principales problemas de memoria suelen venir de las capas FC (Fully Connected).
 - Otro indicador acerca de las predicciones de nuestro modelo es la "matriz de confusión" (lo encontraréis como confussion matrix).
+- **Transfer learning**
+    - Transferir el aprendizaje en un dominio (ej. Imagenet) a otro nuevo dominio con un tamaño muestral menor.
+    - Redes que han sido entrenados con muchísimas imágenes.
+    - ¿Cómo?
+        a. Carga red pre-entrenada
+        b. Modifica capas a conveniencia (no convolucionales)
+        c. Re-entrena con LR baja
+- Capas convolucionales: extrae características generales
+- Modelo/red "squeezenet", consume poca memoria, pensado para móviles.
 
 
 ## Aprendizaje no supervisado
