@@ -219,6 +219,7 @@
 - **Adam**: modelo de optimización más sencillito
 - Los principales problemas de memoria suelen venir de las capas FC (Fully Connected).
 - Otro indicador acerca de las predicciones de nuestro modelo es la "matriz de confusión" (lo encontraréis como confussion matrix).
+<<<<<<< HEAD
 - **Transfer learning**
     - Transferir el aprendizaje en un dominio (ej. Imagenet) a otro nuevo dominio con un tamaño muestral menor.
     - Redes que han sido entrenados con muchísimas imágenes.
@@ -230,6 +231,8 @@
 - Modelo/red "squeezenet", consume poca memoria, pensado para móviles.
 - Es buena práctica usar el "early stopper"
 - Para leer: https://distill.pub/2019/activation-atlas/
+=======
+>>>>>>> 37e18ec (PyTorch II examples)
 
 
 ## Aprendizaje no supervisado
