@@ -178,7 +178,35 @@
 - DataLoader: extraerá la i
 
 ## Día 2: Redes neuronales prácticas con PyTorch (II)
-- TBD
+- Deep Learning: más moderno, se usan millones de parámetros.
+- Red neuronal: La introducción de una capa de neuronas permite combinar varias regiones (áreas) de decisión y así separar clases no linealmente separables
+- Fases:
+    1. Datos
+        -  Recopilar datos
+        -  Ordenarlos (curación de datos)
+        -  Procesamiento
+    1. Modelo
+        - Elección de modelo
+        - Construcción de la red
+    3. Entrenamiento
+        - Bucle de entrenamiento
+        - Forward pass
+        - Loss
+        - Backward pass
+    5. Evaluación
+        - Estimar la capacidad de generalización
+        - Generalmente: conjunto de tests
+- **Epoch**: iteración de entrenamiento
+- **Redes convolucionales**: 
+    - intentan mantener la relación que existe entre los pixeles (e.g. en una imagen). 
+    - Cada pixel lo multiplica por una matriz de kernels o filtros (que representan alguna característica, e.g. bordes en una imagen).
+    - Esperamos que el algoritmos extraiga la característica que sea óptima
+- **Parámetros de la convolución**
+    - Todas las neuronas comparten y aplican el mismo peso/kernel/filtro 
+- [Convolution arithmetic tutorial](https://theano-pymc.readthedocs.io/en/latest/tutorial/conv_arithmetic.html)
+- 
+
+
 
 ## Aprendizaje no supervisado
 - TBD
