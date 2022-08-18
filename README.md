@@ -6,7 +6,7 @@
 - Dr. Andrés Ortiz García (Universidad de Málaga)
 - Dr. Francisco J. Martínez Murcia (Universidad de Granada)
 - Compraron GPU con 48 GB
-- Concurso: https://eventex.es/arteficial/
+- Concurso: <https://eventex.es/arteficial/>
 
 ## Introducción al curso. Ciencia de datos y Deep learning
 
@@ -311,50 +311,93 @@
 ## Detección de objetos y auto-machine learning: aplicaciones industriales
 
 ### Detección de objetos
-- Utilizando modelos preentrenados con Pixellib: https://github.com/ayoolaolafenwa/PixelLib
+
+- Utilizando modelos preentrenados con Pixellib: <https://github.com/ayoolaolafenwa/PixelLib>
 - COCO: dataset famoso, tiene muchas clases, puede identificar muchos objetos.
 - TensorFlow, Keras
 - [Lista de clases de Ade20k](https://github.com/CSAILVision/sceneparsing/blob/master/objectInfo150.csv)
 - La identificación semántica es suficiente para conducción autónoma (no necesitas el hilo fino).
-- Etiquetado de imágenes: https://github.com/heartexlabs/labelImg
+- Etiquetado de imágenes: <https://github.com/heartexlabs/labelImg>
 - YOLO: You Only Look Once. Muy rápido.
-    - https://pjreddie.com/darknet/
-    - https://github.com/ultralytics/yolov5
+  - <https://pjreddie.com/darknet/>
+  - <https://github.com/ultralytics/yolov5>
 - Recomendación: registrarse en [Roboflow](https://public.roboflow.com/), hay muchos datasets. Al descargar, me permite decidir el formato que quiero (e.g. YOLO)
 
+### Redes Generativas Adversarias GAN
 
-## Redes Generativas Adversarias GAN
-
-- https://huggingface.co/spaces/dalle-mini/dalle-mini
-- https://huggingface.co/spaces/multimodalart/latentdiffusion
+- <https://huggingface.co/spaces/dalle-mini/dalle-mini>
+- <https://huggingface.co/spaces/multimodalart/latentdiffusion>
 - Convolución + Deconvolución
-- https://thispersondoesnotexist.com/
+- <https://thispersondoesnotexist.com/>
 - NVIDIA
-    - NVIDIA GauGAN2
-    - https://www.nvidia.com/en-us/research/ai-demos/
+  - NVIDIA GauGAN2
+  - <https://www.nvidia.com/en-us/research/ai-demos/>
 - Transformers, Embeddings. Detecta las partes relevantes de una frase.
 - Contrastive Language-Image Pre-training (**CLIP**)
-    - https://openai.com/blog/clip/
-    - Base de DALL-E
+  - <https://openai.com/blog/clip/>
+  - Base de DALL-E
 - **"Prompt engineering"**: saber qué palabras funcionan mejor en el modelo
-    - https://en.wikipedia.org/wiki/Prompt_engineering
-    - https://medium.com/nerd-for-tech/prompt-engineering-the-career-of-future-2fb93f90f117
+  - <https://en.wikipedia.org/wiki/Prompt_engineering>
+  - <https://medium.com/nerd-for-tech/prompt-engineering-the-career-of-future-2fb93f90f117>
 - **GLIDE**: se encarga de hacer el mix entre lo que deja CLIP (matriz de nombres) y ?
-    - https://arxiv.org/abs/2112.10741
-    - Base de DALL-E
-- https://github.com/openai/dalle-2-preview/blob/main/system-card.md
-    - [Sesgos y limitaciones](https://github.com/openai/dalle-2-preview/blob/main/system-card.md#defaults-and-assumptions)
+  - <https://arxiv.org/abs/2112.10741>
+  - Base de DALL-E
+- <https://github.com/openai/dalle-2-preview/blob/main/system-card.md>
+  - [Sesgos y limitaciones](https://github.com/openai/dalle-2-preview/blob/main/system-card.md#defaults-and-assumptions)
 - [Reducing Bias and Improving Safety in DALL·E 2](https://openai.com/blog/reducing-bias-and-improving-safety-in-dall-e-2/)
 - [DALL-E 2 Inference Infographic](https://github.com/javismiles/dalle2-inference)
-    - [Image](https://raw.githubusercontent.com/javismiles/dalle2-inference/main/images/dalle2-inference-by-javier-ideami-small-version.jpg)
--  DeOldify - Colorize your own photos!
+  - [Image](https://raw.githubusercontent.com/javismiles/dalle2-inference/main/images/dalle2-inference-by-javier-ideami-small-version.jpg)
+- DeOldify - Colorize your own photos!
 - NeRF: neural radiance fields
-    - https://developer.nvidia.com/blog/getting-started-with-nvidia-instant-nerfs/
-    - Bringing scenes to real life in real time
+  - <https://developer.nvidia.com/blog/getting-started-with-nvidia-instant-nerfs/>
+  - Bringing scenes to real life in real time
+
+### Auto-ML
+
+- Tools
+  - Google → autoML:  <https://cloud.google.com/automl>
+  - AWS → Sagemaker Autopilot, Autogluon
+- <https://github.com/mljar/mljar-supervised>
+- KAGGLE PROJECT: Forest Cover Type Prediction
+  - <https://www.kaggle.com/c/forest-cover-type-prediction/data>
+- Ejercicio: uso de pandas profiling --> da una primera visión de en qué consiste el DataSet.
+- Alternative to Pandas Profiling: AutoML Explanatory Data Analysis
 
 ## Aprendizaje por refuerzo
 
-- TBD
+- Casos de uso: juegos, bolsa, todo en lo que haya una interacción con el entorno.
+- Dónde un agente aprende de su propia experiencia.
+- Diferente de aprendizaje supervisado y no supervisado. El agente aprende en base a una recompensa solamente interactuando con su entorno.
+- **Entorno**
+  - Determinista vs Estocástico
+    - <https://es.wikipedia.org/wiki/Estoc%C3%A1stico>
+  - Episódico vs Secuencial
+  - Observable vs Parcialmente Observable
+  - Estático vs Dinámico
+- Acción: Respuestas o decisiones a las observaciones del agente. Discretas o continuas
+- **Recompensa**:
+  - ”Estímulo” que recibe el agente. Positivo o negativo.
+  - Aditivas
+  - Con descuento
+- **Procesos de decisión de Markov** (cadenas de Markov)
+  - Conjunto de estados
+  - Matriz de transición: Nos indica las probabilidades de pasar de un estado a otro.
+  - Hipótesis de Markov: Los valores y decisionessolo son dependientesdel estado actual.
+  - Valor de un estado: Medida que indica la bondad de un determinado estado.
+  - Grid World: <https://sbugallo.github.io/GridWorld-MDP/mdp.html>
+  - Política: Acciones a realizar por el agente en cada estado.
+    - Política óptima: la que optimiza los valores de los estados
+  - Ecuación de Bellman
+  - Ecuación de Bellman para Q:
+  - Tabular learning
+- Ejercicio:
+  - <https://www.gymlibrary.ml/>
+    - Gym is a standard API for reinforcement learning, and a diverse collection of reference environments.
+  - [Frozen Lake](https://www.gymlibrary.ml/environments/toy_text/frozen_lake/?highlight=frozen+lake)
+
+## Interpretabilidad y ética
+
+- <https://nataliadiaz.github.io/>
 
 ## To be read
 
@@ -362,20 +405,29 @@
 - <https://neptune.ai/blog/should-you-use-jupyter-notebooks-in-production>
 - <https://towardsdatascience.com/from-jupyter-notebook-to-deployment-a-straightforward-example-1838c203a437>
 - MLOps: Nerea, hay mucho por hacer
-    - https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning
-    - https://ml-ops.org/content/mlops-principles
-    - https://aws.amazon.com/es/sagemaker/mlops/
+  - <https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning>
+  - <https://ml-ops.org/content/mlops-principles>
+  - <https://aws.amazon.com/es/sagemaker/mlops/>
+  - https://twitter.com/SoyGema/status/1548238895728320514
 
 ## Preguntas
 
 - ¿En el mundo real usáis PyTorch? Sí, tanto en local como en su propio hierro.
 - ¿Algo similar a los tests automatizados en desarrollo de SW?
 - ¿Por qué se aplana la curva de aprendizaje cuando se aumenta el número de capas?
+- ClarityAI:
+  - ¿Qué automatizaciones tenemos? ¿Hay pipelines?
+  - ¿Cómo nos enteramos de que un modelo empieza a comportarse peor? ¿Alertas automáticas?
+  - ¿MLOps, Auto-ML?
+  - Versionado de modelos
 
 ## Feedback de mejora
+
 - Preparación en casa de los ejercicios
 - Docker
 - Animar a ponerse en pareja
 - A setas o a roles (o principiante o medio)
 - Buen micrófono
 - Pantalla más grande (pasar fórmula)
+- Chat para interactuar, compartir, comentar, etc.
+- Parte social: organizar ir a cañas por la tarde.
