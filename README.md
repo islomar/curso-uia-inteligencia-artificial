@@ -396,8 +396,23 @@
   - [Frozen Lake](https://www.gymlibrary.ml/environments/toy_text/frozen_lake/?highlight=frozen+lake)
 
 ## Interpretabilidad y ética
-
+- Natalia Díaz Rodríguez
 - <https://nataliadiaz.github.io/>
+- [Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI](https://www.sciencedirect.com/science/article/pii/S1566253519308103)
+- **Responsible AI**
+- Model agnostic techniques
+- [Ethics guidelines for trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
+- AI catastrophic forgetting: https://en.wikipedia.org/wiki/Catastrophic_interference
+- Adversary ML
+- https://joshua-ellul.medium.com/regulate-ai-only-where-required-2436a3bef0ef
+- How to design disclaimers/ mode of use prospect instructions for your model?
+- Controversies:
+  - Attention is not Explanation](https://www.researchgate.net/publication/335158717_Attention_is_not_not_Explanation)
+- How to apply XAI in practice?: hay un montón de frameworks
+  - El más versátil: IBM Research AI Explainability: AIX 360 Framework
+  - https://aix360.mybluemix.net/data
+
+
 
 ## To be read
 
@@ -409,6 +424,8 @@
   - <https://ml-ops.org/content/mlops-principles>
   - <https://aws.amazon.com/es/sagemaker/mlops/>
   - https://twitter.com/SoyGema/status/1548238895728320514
+  - https://mlflow.org/
+
 
 ## Preguntas
 
